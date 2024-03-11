@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Emily Su"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - contact.qmd
+      - href: Emily_Su_CV.pdf
+        text: CV
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
