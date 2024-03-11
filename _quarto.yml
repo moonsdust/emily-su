@@ -5,7 +5,7 @@ project:
 website:
   title: "Emily Su"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - contact.qmd
